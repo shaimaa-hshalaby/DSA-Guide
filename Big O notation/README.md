@@ -44,25 +44,29 @@ Time complexity focuses on analyzing how an algorithm's runtime scales with inpu
 It answers questions like, "How many operations are performed as the input size increases?"
 
 #### Analyzing Time Complexity
-- Count Operations: Count basic operations (e.g., comparisons, assignments) in your algorithm.
-- Remove Constants: Drop constants and lower-order terms.
-- Focus on Dominant Terms: Identify the term that grows fastest with input size.
+- **Count Operations**: Count basic operations (e.g., comparisons, assignments) in your algorithm.
+- **Remove Constants**: Drop constants and lower-order terms.
+- **Focus on Dominant Terms**: Identify the term that grows fastest with input size.
 Examples
 O(1): Constant time algorithms (e.g., accessing an element in an array).
 O(n): Linear time algorithms (e.g., iterating through an array).
 O(n^2): Quadratic time algorithms (e.g., nested loops).
-3. Space Complexity
-Memory Usage Analysis
-Space complexity deals with analyzing an algorithm's memory requirements concerning the input size. It answers questions like, "How much memory is needed as the input size increases?"
 
-Analyzing Space Complexity
-Identify Data Structures: Recognize memory used for data structures (arrays, lists, trees).
-Count Additional Space: Account for any extra space, such as recursive stack frames.
-Focus on Dominant Terms: As with time complexity, consider the most significant term.
+
+### Space Complexity
+Memory Usage Analysis
+Space complexity deals with analyzing an algorithm's memory requirements concerning the input size. 
+It answers questions like, "How much memory is needed as the input size increases?"
+
+#### Analyzing Space Complexity
+-  Identify Data Structures: Recognize memory used for data structures (arrays, lists, trees).
+-  Count Additional Space: Account for any extra space, such as recursive stack frames.
+-  Focus on Dominant Terms: As with time complexity, consider the most significant term.
 Examples
 O(1): Constant space (e.g., a single variable).
 O(n): Linear space (e.g., an array with n elements).
 O(n^2): Quadratic space (e.g., a 2D array with n rows and n columns).
+
 4. Comparing Time and Space Complexity
 Trade-offs
 Algorithms may optimize for time at the expense of space, or vice versa.
