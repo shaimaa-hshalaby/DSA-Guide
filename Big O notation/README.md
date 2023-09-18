@@ -31,7 +31,7 @@ Definition and Purpose
 Big O notation, often denoted as O(f(n)), describes the upper bound of the growth rate of an algorithm's runtime or memory usage concerning the input size, n. It provides a simplified way to express the efficiency of algorithms.
 
 #### Common Notations
--  O(1): Constant time - The algorithm's runtime or memory usage does not depend on the input size.
+-  O(1): Constant time - The algorithm's runtime or memory usage does not depend on the input size which means that as (n) grows, the number of operations stays constant.
 -  O(log n): Logarithmic time - Efficiency grows slower than linear but faster than constant.
 -  O(n): Linear time - Efficiency grows linearly with the input size.
 -  O(n log n): Linearithmic time - Found in efficient sorting algorithms.
